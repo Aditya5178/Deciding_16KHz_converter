@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.python_packages/
+.venv/
+venv/
+
+# Audio files (exclude large recordings/binaries)
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.m4a
+*.aac
+
+# NLMS generated outputs / data
+NLMS/outputs/
+NLMS/unseen/
+NLMS/data/
+NLMS/primary.wav
+NLMS/reference.wav
+NLMS/clean_speech.wav
+NLMS/known_primary_noise.wav
+
+# Other artifacts
+*.png
+*.jpg
+*.jpeg
+*.npy
+.DS_Store

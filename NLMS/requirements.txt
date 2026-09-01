@@ -1,0 +1,7 @@
+numpy>=1.26
+scipy>=1.11
+soundfile>=0.12
+matplotlib>=3.8
+
+# Optional: enables STOI in evaluate.py
+# pystoi>=0.4.1
